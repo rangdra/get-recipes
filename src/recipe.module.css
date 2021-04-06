@@ -1,0 +1,32 @@
+.recipe {
+  border-radius: 10px;
+  box-shadow: rgb(148, 143, 143);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  min-width: 40%;
+}
+
+.image {
+  width: 100%;
+  height: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cardBody {
+  padding: 0px 20px 20px;
+}
+.cardBody h1,
+p {
+  text-align: center;
+}
+.cardBody p {
+  text-align: center;
+  margin-top: 50px;
+}
